@@ -11,7 +11,7 @@ export class CdkAppStack extends cdk.Stack {
     });
 
     const table = new dynamodb.Table(this, 'todos-table', {
-      partitionKey: {name: 'todoId', type: dynamodb.AttributeType.NUMBER},
+      partitionKey: {name: 'another-one', type: dynamodb.AttributeType.NUMBER},
       billingMode: dynamodb.BillingMode.PAY_PER_REQUEST,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
     });
