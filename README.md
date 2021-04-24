@@ -11,10 +11,6 @@ Stacks from this repository you can:
 
 1. Clone the repository
 
-```bash
-git clone git@github.com:bobbyhadz/cdk-tutorial-typescript.git && cd cdk-tutorial-typescript
-```
-
 2. Install the dependencies
 
 ```bash
