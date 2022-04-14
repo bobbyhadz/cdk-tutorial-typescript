@@ -10,20 +10,30 @@
     "test": "jest",
     "cdk": "cdk"
   },
-  "devDependencies": {
-    "@aws-cdk/assert": "1.100.0",
-    "@types/jest": "^26.0.10",
-    "@types/node": "10.17.27",
-    "aws-cdk": "1.100.0",
-    "jest": "^26.4.2",
-    "ts-jest": "^26.2.0",
-    "ts-node": "^9.0.0",
-    "typescript": "~3.9.7"
-  },
   "dependencies": {
-    "@aws-cdk/aws-dynamodb": "1.100.0",
-    "@aws-cdk/aws-s3": "1.100.0",
-    "@aws-cdk/core": "1.100.0",
-    "source-map-support": "^0.5.16"
+    "aws-cdk-lib": "^2.20.0",
+    "constructs": "^10.0.112",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.93",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "aws-cdk": "^2.20.0",
+    "aws-lambda": "^1.0.7",
+    "esbuild": "^0.14.36",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
   }
 }

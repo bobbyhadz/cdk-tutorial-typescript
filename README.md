@@ -4,6 +4,8 @@ A repository for an article on
 [bobbyhadz.com](https://bobbyhadz.com/blog/aws-cdk-tutorial-typescript) that
 shows how to get starter with AWS CDK using TypeScript.
 
+> If you use CDK v1, switch to the cdk-v1 branch
+
 ## How to Use
 
 It's best to follow the article step-by-step, however if you want to deploy the
@@ -20,7 +22,7 @@ npm install
 3. Create the CDK stacks
 
 ```bash
-npx cdk deploy \
+npx aws-cdk deploy \
   cdk-stack-dev \
   cdk-stack-prod
 ```
@@ -30,7 +32,7 @@ npx cdk deploy \
 5. Clean Up
 
 ```bash
-npx cdk destroy \
+npx aws-cdk destroy \
   cdk-stack-dev \
   cdk-stack-prod
 ```
